@@ -1,24 +1,14 @@
 
 
-@media screen and (max-width: 768px){
- body {
-    background-color: #e7dbdb;
-   
-}
-}
- .fix-header {
+
+.fix-header {
     border-bottom: 1px solid black;
     position: sticky;
     left: 0px;
     top: 0px;
     background-color: white;
 }
-@media screen and (max-width: 768px;){
-    .fix-header{
-        background-color: #e7dbdb;
-    }
 
-}
     
 
 
@@ -91,13 +81,7 @@
     padding: 20px;
 
 }
-@media screen and (max-width:768px){
-    .head {
-      text-align: center;
-      width: 100%;
-      background-color: #e7dbdb;
-   }
-   }
+
     
 
 
@@ -125,12 +109,6 @@
 .img-text1{
     margin-top: 10px;
 }
-@media screen and (max-width: 768px){
-    .img-text1 {
-      width: 100%;
-      
-   }
-   }
 
 
 .img-head1{
@@ -247,11 +225,7 @@ align-items: center;
     margin: 30px;
     
     }
-    @media screen and (max-width: 768px;){
-    .sevice-container{
-        background-color:  #e7dbdb;
-    }
-    }
+   
     
     .service-img{
     height: 60px;
@@ -274,4 +248,39 @@ align-items: center;
     text-align: center;
     margin: 20px 10px;
     }
-    
+    @media screen and (max-width: 768px){
+        body {
+           background-color: #e7dbdb;
+          
+       }
+       .head{
+           display:none;
+       }
+       .logins{
+         display: none;
+       }
+       
+       .search-bar{
+        width: 150px;
+       }
+       .heading{
+        font-size: 30px;
+       }
+       .img-text1{
+        display: none;
+       }
+       .img-text{
+        display: none;
+       }
+       .card-parent{
+        margin: 0px;
+       }
+       .service-container{
+        display: grid;
+       }
+       .shopping-card-container{
+        height: 370px;
+        width: 255px;
+        padding: 5px;
+       }
+    }
